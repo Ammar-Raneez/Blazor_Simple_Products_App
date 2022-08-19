@@ -1,5 +1,4 @@
-﻿
-using eShop.CoreBusiness.Models;
+﻿using eShop.CoreBusiness.Models;
 using eShop.UseCases.PluginInterfaces.DataStore;
 
 namespace eShop.DataStore.HardCoded
