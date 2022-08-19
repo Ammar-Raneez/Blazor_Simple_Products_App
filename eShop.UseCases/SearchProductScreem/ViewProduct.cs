@@ -5,9 +5,9 @@ namespace eShop.UseCases.SearchProductScreem
 {
     public class ViewProduct
     {
-        private readonly ProductRepository productRepository;
+        private readonly IProductRepository productRepository;
 
-        public ViewProduct(ProductRepository productRepository)
+        public ViewProduct(IProductRepository productRepository)
         {
             this.productRepository = productRepository;
         }

@@ -2,7 +2,7 @@
 
 namespace eShop.UseCases.PluginInterfaces.DataStore
 {
-    public interface ProductRepository
+    public interface IProductRepository
     {
         IEnumerable<Product> GetProducts(string filter);
         Product GetProduct(int Id);
