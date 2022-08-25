@@ -39,6 +39,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Learning/Learning Code/C\#/Blazor E-Commerce App/BlazorApp1/Pages/ViewProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Byb2R1Y3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Learning/Learning Code/C\#/Blazor E-Commerce App/BlazorApp1/Shared/ProductItem.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFByb2R1Y3RJdGVtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
