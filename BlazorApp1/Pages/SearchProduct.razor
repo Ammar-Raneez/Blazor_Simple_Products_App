@@ -3,7 +3,8 @@
 @inject ISearchProduct searchProduct
 
 <h3>Search Products</h3>
-
+<br />
+<Searchbar onSearch="HandleSearch" />
 <ul>
     @foreach(var prod in products)
     {
@@ -18,5 +19,10 @@
     {
         base.OnInitialized();
         this.products = searchProduct.Execute();
+    }
+
+    private void HandleSearch(string filter)
+    {
+        Console.WriteLine(filter);
     }
 }
