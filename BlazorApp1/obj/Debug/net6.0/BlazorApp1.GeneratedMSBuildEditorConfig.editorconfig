@@ -23,8 +23,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Learning Code/C\#/Blazor E-Commerce App/BlazorApp1/Pages/DynamicComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHluYW1pY0NvbXBvbmVudC5yYXpvcg==
+[D:/Learning/Learning Code/C\#/Blazor E-Commerce App/BlazorApp1/Pages/Dynamic.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHluYW1pYy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Learning/Learning Code/C\#/Blazor E-Commerce App/BlazorApp1/Pages/FetchData.razor]
@@ -35,8 +35,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning/Learning Code/C\#/Blazor E-Commerce App/BlazorApp1/Pages/SearchProductComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUHJvZHVjdENvbXBvbmVudC5yYXpvcg==
+[D:/Learning/Learning Code/C\#/Blazor E-Commerce App/BlazorApp1/Pages/SearchProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Learning/Learning Code/C\#/Blazor E-Commerce App/BlazorApp1/Shared/SurveyPrompt.razor]
