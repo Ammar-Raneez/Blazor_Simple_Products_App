@@ -1,12 +1,12 @@
-﻿<div>
-    Search:
-    <input
-        type="text"
-        @bind-value="filter"
-    />
-    <button @onclick="handleSearch">Search</button>
-</div>
-<br />
+﻿<form class="row g-3">    
+    <div class="col-auto">
+        <label for="filter">Search</label>
+        <input type="text" class="form-control" id="filter" @bind-value="filter" />        
+    </div>
+    <div class="col-auto">
+        <button type="button" class="btn btn-primary mt-4" @onclick="handleSearch">Search</button>
+    </div>
+</form>
 
 @code {
     private string filter = "";
