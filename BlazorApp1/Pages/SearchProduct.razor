@@ -5,12 +5,29 @@
 <h3>Search Products</h3>
 <br />
 <Searchbar onSearch="HandleSearch" />
-<ul>
-    @foreach(var prod in products)
-    {
-        <li>@prod.Name</li>
-    }
-</ul>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (this.products != null)
+        {
+            @foreach(var product in this.products)
+            {
+                <ProductItem product="product" />
+            }
+        }
+        else {
+            <tr>
+                <td colspan="3">Cannot find products</td>
+            </tr>
+        }
+    </tbody>
+</table>
 
 @code {
     private IEnumerable<Product> products = new List<Product>();
