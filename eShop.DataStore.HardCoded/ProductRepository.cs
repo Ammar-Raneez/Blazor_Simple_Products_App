@@ -41,7 +41,7 @@ namespace eShop.DataStore.HardCoded
             return this.products.FirstOrDefault(x => x.Id == Id);
         }
 
-        public IEnumerable<Product> GetProducts(string filter)
+        public IEnumerable<Product> GetProducts(string filter = null)
         {
 
             if (string.IsNullOrWhiteSpace(filter))

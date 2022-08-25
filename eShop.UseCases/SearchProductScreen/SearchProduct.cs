@@ -1,9 +1,9 @@
 ﻿using eShop.CoreBusiness.Models;
 using eShop.UseCases.PluginInterfaces.DataStore;
 
-namespace eShop.UseCases.SearchProductScreem
+namespace eShop.UseCases.SearchProductScreen
 {
-    public class SearchProduct
+    public class SearchProduct: ISearchProduct
     {
         private readonly IProductRepository productRepository;
         public SearchProduct(IProductRepository productRepository)

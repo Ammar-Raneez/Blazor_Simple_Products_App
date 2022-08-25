@@ -1,4 +1,8 @@
 using BlazorApp1.Data;
+using eShop.DataStore.HardCoded;
+using eShop.UseCases.PluginInterfaces.DataStore;
+using eShop.UseCases.SearchProductScreen;
+using eShop.UseCases.ViewProductScreen;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
+builder.Services.AddTransient<ISearchProduct, SearchProduct>();
+builder.Services.AddTransient<IViewProduct, ViewProduct>();
 
 var app = builder.Build();
 

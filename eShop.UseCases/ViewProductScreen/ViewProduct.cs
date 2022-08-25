@@ -1,9 +1,9 @@
 ﻿using eShop.CoreBusiness.Models;
 using eShop.UseCases.PluginInterfaces.DataStore;
 
-namespace eShop.UseCases.SearchProductScreem
+namespace eShop.UseCases.ViewProductScreen
 {
-    public class ViewProduct
+    public class ViewProduct: IViewProduct
     {
         private readonly IProductRepository productRepository;
 
@@ -14,7 +14,7 @@ namespace eShop.UseCases.SearchProductScreem
 
         public Product Execute(int id)
         {
-            return this.productRepository.GetProduct(id);
+            return productRepository.GetProduct(id);
         }
     }
 }

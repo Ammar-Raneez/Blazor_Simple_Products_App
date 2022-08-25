@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\eShop.DataStore.HardCoded\eShop.DataStore.HardCoded.csproj" />
+    <ProjectReference Include="..\eShop.UseCases\eShop.UseCases.csproj" />
+  </ItemGroup>
+
 </Project>

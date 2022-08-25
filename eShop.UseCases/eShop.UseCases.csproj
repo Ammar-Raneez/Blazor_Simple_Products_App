@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ViewProductScreen\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\eShop.CoreBusiness\eShop.CoreBusiness.csproj" />
   </ItemGroup>
 
