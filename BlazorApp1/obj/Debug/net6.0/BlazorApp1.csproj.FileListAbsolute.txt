@@ -25,3 +25,10 @@ D:\Learning\Learning Code\C#\Blazor E-Commerce App\BlazorApp1\obj\Debug\net6.0\r
 D:\Learning\Learning Code\C#\Blazor E-Commerce App\BlazorApp1\obj\Debug\net6.0\BlazorApp1.pdb
 D:\Learning\Learning Code\C#\Blazor E-Commerce App\BlazorApp1\obj\Debug\net6.0\BlazorApp1.genruntimeconfig.cache
 D:\Learning\Learning Code\C#\Blazor E-Commerce App\BlazorApp1\obj\Debug\net6.0\ref\BlazorApp1.dll
+D:\Learning\Learning Code\C#\Blazor E-Commerce App\BlazorApp1\bin\Debug\net6.0\eShop.CoreBusiness.dll
+D:\Learning\Learning Code\C#\Blazor E-Commerce App\BlazorApp1\bin\Debug\net6.0\eShop.DataStore.HardCoded.dll
+D:\Learning\Learning Code\C#\Blazor E-Commerce App\BlazorApp1\bin\Debug\net6.0\eShop.UseCases.dll
+D:\Learning\Learning Code\C#\Blazor E-Commerce App\BlazorApp1\bin\Debug\net6.0\eShop.DataStore.HardCoded.pdb
+D:\Learning\Learning Code\C#\Blazor E-Commerce App\BlazorApp1\bin\Debug\net6.0\eShop.UseCases.pdb
+D:\Learning\Learning Code\C#\Blazor E-Commerce App\BlazorApp1\bin\Debug\net6.0\eShop.CoreBusiness.pdb
+D:\Learning\Learning Code\C#\Blazor E-Commerce App\BlazorApp1\obj\Debug\net6.0\BlazorApp1.csproj.CopyComplete

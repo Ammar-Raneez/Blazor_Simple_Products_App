@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.CoreBusiness", "..\eS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.UseCases", "..\eShop.UseCases\eShop.UseCases.csproj", "{86515193-DFF0-4395-98C3-5C44B2E2B8A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.DataStore.HardCoded", "..\eShop.DataStore.HardCoded\eShop.DataStore.HardCoded.csproj", "{15AAE5C6-D6B4-4CC0-9DA9-A2485C054E84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.DataStore.HardCoded", "..\eShop.DataStore.HardCoded\eShop.DataStore.HardCoded.csproj", "{15AAE5C6-D6B4-4CC0-9DA9-A2485C054E84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
